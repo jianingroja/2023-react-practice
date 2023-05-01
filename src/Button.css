@@ -1,0 +1,20 @@
+.button {
+  font-size: 1.2rem;
+  padding: 0.2rem 2rem;
+  margin: 1rem;
+  border: 2px dotted olivedrab;
+  background-color: whitesmoke;
+}
+
+.button-accomplished {
+  color: white;
+  background-color: olivedrab;
+}
+
+.button {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.text-accomplished {
+  text-decoration: underline;
+}
