@@ -1,6 +1,24 @@
-.date-number {
+.present-date-number {
   font-size: 2rem;
   line-height: 3rem;
   color: white;
   background-color: olivedrab;
+  /* temporarily */
+  margin-top: 1rem;
+}
+
+.passed-date {
+  text-align: left;
+}
+
+.passed-date-number {
+  display: inline-block;
+  font-size: 2rem;
+  color: darkolivegreen;
+  background-color: lightgray;
+  padding: 0 0.3rem;
+  /* margin left/right between each number doesn't collapse here */
+  margin: 0 0.2rem;
+  text-align: center;
+  /* todo 每个数字占屏幕 1/31（也许不需要）；显示屏适配。 */
 }
