@@ -1,5 +1,6 @@
 import Button from './Button';
 import DateNumber from './DateNumber';
+import Time from './Time';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Button accomplishment="Gym" />
       <Button accomplishment="Yoga" />
       <Button accomplishment="Coding" />
+      <Time />
     </div>
   );
 }

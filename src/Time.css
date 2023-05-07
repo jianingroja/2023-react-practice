@@ -1,0 +1,13 @@
+.time-current {
+  position: fixed;
+  /* difference between absolute and fixed */
+  bottom: 0;
+  /* question: when it is absolute, if top/bottom is not specified, element will be placed following its sibling element, within the document flow? */
+  right: 0;
+  /* absolute 时，需要至少一个上下，一个左右 */
+}
+
+.time-current h3 {
+  color: olivedrab;
+  margin: 0.5rem 1rem;
+}
