@@ -1,12 +1,12 @@
-.date-number {
+.date-unit {
   font-size: 2rem;
 }
 
-.passed-date {
+.passed-date-section {
   text-align: left;
 }
 
-.passed-date-number {
+.passed-date-unit {
   display: inline-block;
   color: darkolivegreen;
   background-color: lightgray;
@@ -17,7 +17,7 @@
   /* todo 每个数字占屏幕 1/31（也许不需要）；显示屏适配。 */
 }
 
-.present-date-number {
+.present-date-unit {
   color: white;
   background-color: olivedrab;
   line-height: 3rem;

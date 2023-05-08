@@ -1,29 +1,12 @@
-import React, { useState } from 'react';
-import './Button.css';
+import React from 'react';
 
-const Button = ({ accomplishment = '' }) => {
-  const [showText, setShowText] = useState(false);
-
-  const handleClick = () => {
-    setShowText(true);
-  };
-
+const Button = ({ children, className, handleClick }) => {
   return (
-    <div>
-      <button
-        className={`button ${showText ? 'button-accomplished' : ''}`}
-        onClick={handleClick}
-      >
-        {accomplishment}
+    <>
+      <button className={className} onClick={handleClick}>
+        {children}
       </button>
-      {showText ? (
-        <p className="text-accomplished">
-          Accomplished {accomplishment} today!
-        </p>
-      ) : (
-        ''
-      )}
-    </div>
+    </>
   );
 };
 
