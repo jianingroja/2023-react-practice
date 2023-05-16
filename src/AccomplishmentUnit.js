@@ -10,7 +10,9 @@ const AccomplishmentUnit = ({ accomplishment = '' }) => {
     setIsAccomplished(true);
   };
 
-  const btnClassName = `button ${isAccomplished ? 'button-accomplished' : ''}`;
+  const btnClassName = `button-accomplish ${
+    isAccomplished ? 'button-accomplished' : ''
+  }`;
 
   return (
     <div>
