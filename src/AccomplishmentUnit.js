@@ -17,7 +17,7 @@ const AccomplishmentUnit = ({ accomplishment = '' }) => {
   return (
     <div>
       <Button className={btnClassName} handleClick={handleClick}>
-        {accomplishment}
+        {accomplishment.toUpperCase()}
       </Button>
       {isAccomplished ? (
         <p className="text-accomplished">
