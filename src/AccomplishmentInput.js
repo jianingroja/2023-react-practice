@@ -18,11 +18,11 @@ const AccomplishInput = ({ handleAddClick }) => {
 
   const handleClick = () => {
     // todo check input content
-    if (!input) {
+    if (!input.trim()) {
       return;
     }
 
-    handleAddClick(createAccomp(input));
+    handleAddClick(createAccomp(input.trim()));
     setInput('');
   };
 
